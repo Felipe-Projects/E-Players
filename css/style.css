@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    /* background-color: royalblue; */
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1E1C21;
+    height: 80px;
+}
+
+.posicao_itens_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.container_header {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.nav_header {
+    display: flex;
+    /* background-color: seagreen; */
+    width: 692px;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.nav_header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+/* Section 1 */
+
+.posicionamento_section1 {
+    height: auto;
+    display: flex;
+}
+
+.posicionamento_section1 h1 {
+    color: white;
+}
+
+.posicionamento_section1 h2 {
+    color: white;
+}
+
+.fundo_degrade {
+    background: linear-gradient(90deg, #C31616 0%, #C31616 21.88%, #000000 60.42%, #000000 100%);
+    height: auto;
+    width: auto;
+    padding-top: 14px;
+}
+
+.personagem1 {
+    display: flex;
+    justify-content: end;
+}
+
+.titulo_section1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 543px;
+    font-family: 'Titillium Web', sans-serif;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    line-height: 122px;
+    width: 493px;
+}
+
+.titulo_section1 h2 {
+    color: white;
+    font-size: 24px;
+    line-height: 37px;
+}
+
+.botao_inscrevase {
+    margin-top: 41px;
+}
+
+.titulo_section1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 42px;
+    line-height: 63, 88px;
+    background-color: #C31616;
+    height: 57px;
+    width: 247px;
+    border-radius: 12px;
+    padding: 0 16px;
+}
+
+/* Section 2 */
+
+.barra_de_jogos {
+    height: 152px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.jogos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    height: 152px;
+}
+
+/* Section 3 */
+
+.como_participar {
+    height: 600px;
+    width: 100%;
+    background-image: url(../assets/Fundo\ Lol\ com\ Filterblue.png);
+    position: relative;
+}
+
+.posicao_section3 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.texto_section_participar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.texto_section_participar h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 52px;
+    color: white;
+}
+
+.texto_section_participar p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 798px;
+    height: 312px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.container_faixa {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.faixa_preta {
+    background-color: black;
+    height: 85%;
+    width: 100%;
+    transform: skewY(-3deg);
+}
+
+/* section 4 */
+
+.barra_times {
+    background-color: black;
+    height: 152px;
+    width: 100%;
+}
+
+.tudo {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 152px;
+}
+
+.ao_vivo {
+    width: 721px;
+    /* background-color: violet; */
+}
+
+.ao_vivo_span {
+    font-family: roboto;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 33px;
+    height: 66px;
+    width: 65px;
+    display: inline-block;
+    margin-right: 36px;
+}
+
+.logo_sk {
+    margin-left: 10px;
+}
+
+.sk {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.vs {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    margin: 0 17px;
+}
+
+.linha_na_vertical {
+    width: 101px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+    margin: 72px 0;
+}
+
+/* Em Breve */
+
+.em_breve {
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.embreve {
+    display: flex;
+    /* background-color: aqua; */
+}
+
+.em_breve_span {
+    font-family: roboto;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 33px;
+    height: 66px;
+    width: 65px;
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+/* Section 5 */
+
+main {
+    background-color: #1E1C21;
+}
+
+.noticias_e_proximos_jogos {
+    height: 1022px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticias_text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 40px;
+    color: white;
+}
+
+.noticias {
+    display: flex;
+    flex-wrap: wrap;
+    width: 839px;
+}
+
+/* Noticia 1 */
+
+.noticias_e_proximos_jogos {
+    padding-top: 52px;
+}
+
+.noticia1 {
+    height: 359px;
+    width: 226.70px;
+    box-shadow: 0px 4px 24px 7px rgba(0, 0, 0, 0.5);
+    margin-right: 78px;
+    margin-bottom: 78px;
+}
+
+.noticia1 img {
+    height: 151.63px;
+    width: 226.70px;
+}
+
+.noticia1 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.noticia1 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    height: 151px;
+    width: 192px;
+}
+
+.fundo {
+    background: linear-gradient(180deg, #5B5B5B 0%, #020202 100%);
+    padding: 22px 0;
+    margin-top: -4px;
+    display: grid;
+    justify-content: center;
+}
+
+/* Noticia 2 */
+
+.noticia2 {
+    height: 359px;
+    width: 226.70px;
+    box-shadow: 0px 4px 24px 7px rgba(0, 0, 0, 0.5);
+    margin-right: 78px;
+    margin-bottom: 78px;
+}
+
+.noticia2 img {
+    height: 151.63px;
+    width: 226.70px;
+}
+
+.noticia2 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.noticia2 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    height: 151px;
+    width: 192px;
+}
+
+/* Noticia 3 */
+
+.noticia3 {
+    height: 359px;
+    width: 226.70px;
+    box-shadow: 0px 4px 24px 7px rgba(0, 0, 0, 0.5);
+    margin-bottom: 78px;
+}
+
+.noticia3 img {
+    height: 151.63px;
+    width: 226.70px;
+}
+
+.noticia3 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.noticia3 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    height: 151px;
+    width: 192px;
+}
+
+/* Noticia 4 */
+
+.noticia4 {
+    height: 359px;
+    width: 226.70px;
+    box-shadow: 0px 4px 24px 7px rgba(0, 0, 0, 0.5);
+    margin-right: 78px;
+}
+
+.noticia4 img {
+    height: 151.63px;
+    width: 226.70px;
+}
+
+.noticia4 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.noticia4 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    height: 151px;
+    width: 192px;
+}
+
+/* Noticia 5 */
+
+.noticia5 {
+    height: 359px;
+    width: 226.70px;
+    box-shadow: 0px 4px 24px 7px rgba(0, 0, 0, 0.5);
+    margin-right: 78px;
+}
+
+.noticia5 img {
+    height: 151.63px;
+    width: 226.70px;
+}
+
+.noticia5 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.noticia5 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    height: 151px;
+    width: 192px;
+}
+
+/* Noticia 6 */
+
+.noticia6 {
+    height: 359px;
+    width: 226.70px;
+    box-shadow: 0px 4px 24px 7px rgba(0, 0, 0, 0.5);
+}
+
+.noticia6 img {
+    height: 151.63px;
+    width: 226.70px;
+}
+
+.noticia6 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.noticia6 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    height: 151px;
+    width: 192px;
+}
+
+.proximos_jogos h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 40px;
+    color: white;
+}
+
+.fundo_proximos_jogos {
+    background: linear-gradient(180deg, #0C0C0C 0%, #272727 55.21%, #0C0C0C 100%);
+    box-shadow: 0px 4px 48px 10px rgba(0, 0, 0, 0.5), inset 0px 4px 19px -3px rgba(0, 0, 0, 0.76);
+    width: 286px;
+    height: 797px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.proximos_jogos {
+    display: flex;
+    flex-direction: column;
+}
+
+.fundo_proximos_jogos span {
+    color: white;
+    font-family: Roboto;
+    font-size: 28px;
+}
+
+.noticias_e_proximos_jogos h2 {
+    margin-bottom: 26px;
+}
+
+.sk_times {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.vs_times {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #010101;
+    width: 100%;
+    height: 355px;
+}
+
+.grupos {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.grupo1 span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.grupo1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 191px;
+    margin-right: 42px;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+}

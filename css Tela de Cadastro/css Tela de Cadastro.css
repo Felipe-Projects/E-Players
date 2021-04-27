@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 79.5px;
+}
+
+.section1 {
+    height: 944px;
+    width: 100%;
+    background-image: url(..//assets/Fundo\ tela\ de\ cadastro.png);
+    display: flex;
+}
+
+.footer {
+    height: 355px;
+    width: 100%;
+}
+
+/* Cadastro */
+
+/* Primeira Linha */
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome_text {
+    font-family: Roboto;
+    font-size: 32px;
+    line-height: 37px;
+    color: white;
+}
+
+.nome {
+    padding-left: 20px;
+    height: 69px;
+    width: 690px;
+    background-color: #c4c4c4;
+    font-size: 32px;
+}
+
+/* Segunda Linha */
+
+.nick_nascimento_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.nickname {
+    height: 69px;
+    width: 295px;
+    padding-left: 5px;
+    font-size: 32px;
+    background-color: #c4c4c4;
+}
+
+.nickname_text {
+    font-family: Roboto;
+    font-size: 32px;
+    line-height: 37px;
+    color: white;
+}
