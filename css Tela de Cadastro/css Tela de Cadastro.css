@@ -21,6 +21,18 @@ header {
     display: flex;
 }
 
+.lux {
+    margin-top: 127px;
+    height: 838px;
+    width: 764px;
+}
+
+.garen {
+    margin-top: 179px;
+    height: 817px;
+    width: 608px;
+}
+
 .footer {
     height: 355px;
     width: 100%;
@@ -40,6 +52,8 @@ header {
     font-size: 32px;
     line-height: 37px;
     color: white;
+    margin-top: 10px;
+    display: grid;
 }
 
 .nome {
@@ -51,6 +65,17 @@ header {
 }
 
 /* Segunda Linha */
+
+form {
+    padding-top: 93px;
+}
+
+.nick_nascimento_flex {
+    display: flex;
+    width: 690px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
 
 .nick_nascimento_column {
     display: flex;
@@ -70,4 +95,13 @@ header {
     font-size: 32px;
     line-height: 37px;
     color: white;
+}
+
+.btn {
+    height: 101px;
+    width: 544px;
+    border-radius: 50px;
+    background: linear-gradient(0deg, #C31616, #C31616), linear-gradient(90deg, #C31616 0%, #C31616 43.38%, #0F0000 69.84%, #000000 100%);
+    margin-top: 44px;
+
 }
